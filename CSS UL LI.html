@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UL LI PRACTISE</title>
+    <style>
+       body
+       {
+          background: lightgray;
+          text-align: center;
+          /* align-items: center; */
+          /* margin: 100px auto; */
+       }
+      
+        li
+        {
+            display: inline;
+            margin-right: 40px;
+            position: relative;
+            transition: 3s;
+        }
+
+        .hli
+        {
+           height: 200px;
+           width: 400px;
+           background: lightblue;
+           border: 2px solid;
+           position: absolute;
+           top: 100%;
+           left: 0px;
+           display: none;
+           
+        }
+
+        ul .hhh:hover .hli
+        {
+            display: block;
+        }
+
+        .hli .h2li
+        {
+            height: 182px;
+            width: 395%;
+            background: thistle;
+            /* border: 2px solid; */
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+
+    .jjj:hover .h2li
+    {
+        display: block;
+    }
+
+
+    </style>
+</head>
+<body>
+   
+        <ul>
+            <li class="hhh"><a href="#">HOME</a>
+
+                <div class="hli">
+                    <ul>
+                        <li class="jjj"><a href="#">LOCATION</a>
+                        
+                            <div class="h2li">
+                                <ul>
+                                    <li><a href="#">OUR BRANCHES</a></li>
+                                    <li><a href="#">OUR EXPERIENCE</a></li> 
+                                </ul>
+            
+                                </div>
+                        
+                        </li>
+                    <li><a href="#">OUR SPECIALITIES</a></li>
+                    </ul>
+
+                    <!-- <div class="h2li">
+                    <ul>
+                        <li><a href="#">OUR BRANCHES</a></li>
+                        <li><a href="#">OUR EXPERIENCE</a></li> 
+                    </ul>
+
+                    </div> -->
+                </div>
+
+
+
+
+
+
+            </li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">SERVICES</a></li>
+
+
+        </ul>
+        
+</body>
+</html>
